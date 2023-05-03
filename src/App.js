@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const App = () => {
    useEffect(() => {
-      AOS.init({ duration: 1000 });
+      AOS.init({ duration: 500 });
    }, []);
    return (
       <div className="">

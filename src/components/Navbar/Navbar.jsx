@@ -30,15 +30,12 @@ const Navbar = () => {
                   </NavLink>
                </li>
                <li>
-                  <NavLink
-                     to="/skills"
-                     style={({ isActive }) => ({
-                        color: isActive && "#0dccf2",
-                     })}
+                  <a
+                     href="/#skills"
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
                      Skills
-                  </NavLink>
+                  </a>
                </li>
                <li>
                   <NavLink
@@ -64,15 +61,12 @@ const Navbar = () => {
                   </NavLink>
                </li>
                <li>
-                  <NavLink
-                     to="/about"
-                     style={({ isActive }) => ({
-                        color: isActive && "#0dccf2",
-                     })}
+                  <a
+                     href="/#about"
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
                      About
-                  </NavLink>
+                  </a>
                </li>
                <li>
                   <Resume />

@@ -25,9 +25,18 @@ import { Tooltip } from "react-tooltip";
 
 const Skils = () => {
    return (
-      <div className=" md:pt-32 pt-11 sm:pl-9 pl-6 relative z-[-50]">
+      <div className=" md:pt-16 pt-24 sm:pl-9 pl-8 relative" id="skills">
+         <div className="md:pb-20 -ml-5 md:ml-auto">
+            <h4 className="title">My Skills</h4>
+            <h3 className="font-semibold  md:text-xl text-lg mb-2 text-center text-gray-400">
+               {"<-~-"} Some technology thai i know! {"-~->"}
+            </h3>
+         </div>
          <div className="grid md:grid-cols-2 relative container">
-            <div className="flex min-h-[400px]  items-center justify-center">
+            <div
+               className="flex min-h-[400px]  items-center justify-center"
+               data-aos="fade-left"
+            >
                <div className="">
                   <Tooltip
                      id="html"
@@ -153,7 +162,10 @@ const Skils = () => {
                   <h4 className="text">Frontend</h4>
                </div>
             </div>
-            <div className="min-h-[400px] flex  items-center justify-center">
+            <div
+               className="min-h-[400px] flex  items-center justify-center"
+               data-aos="fade-right"
+            >
                <div className="">
                   <Tooltip
                      id="node"

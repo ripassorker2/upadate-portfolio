@@ -4,6 +4,7 @@ import coding from "../../assets/coding.json";
 import Typewriter from "typewriter-effect";
 import Lottie from "lottie-react";
 import { AiOutlineDownload } from "react-icons/ai";
+import Resume from "../Resume/Resume";
 
 const Banner = () => {
    return (
@@ -41,16 +42,7 @@ const Banner = () => {
                   </span>
                </p>
                <div>
-                  <a
-                     href={resume}
-                     download
-                     className="inline-flex text-center justify-center items-center w-full px-4 py-2 rounded shadow shadow-primary  sm:w-auto "
-                  >
-                     Resume
-                     <span className="ml-2 font-bold text-lg">
-                        <AiOutlineDownload />
-                     </span>
-                  </a>
+                  <Resume />
                </div>
             </div>
          </div>

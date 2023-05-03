@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import resume from "../../assets/resume.pdf";
 import Resume from "../Resume/Resume";
@@ -19,15 +19,12 @@ const Navbar = () => {
             </Link>
             <ul className="lg:flex items-center hidden space-x-8">
                <li>
-                  <NavLink
-                     to="/home"
-                     style={({ isActive }) => ({
-                        color: isActive && "#0dccf2",
-                     })}
+                  <Link
+                     to="/"
                      className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
                      Home
-                  </NavLink>
+                  </Link>
                </li>
                <li>
                   <a
@@ -38,27 +35,21 @@ const Navbar = () => {
                   </a>
                </li>
                <li>
-                  <NavLink
+                  <Link
                      to="/projects"
-                     style={({ isActive }) => ({
-                        color: isActive && "#0dccf2",
-                     })}
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
                      Projects
-                  </NavLink>
+                  </Link>
                </li>
 
                <li>
-                  <NavLink
-                     to="/contact"
-                     style={({ isActive }) => ({
-                        color: isActive && "#0dccf2",
-                     })}
+                  <a
+                     href="/#contact"
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
                      Contact
-                  </NavLink>
+                  </a>
                </li>
                <li>
                   <a

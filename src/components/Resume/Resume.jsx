@@ -8,7 +8,7 @@ const Resume = () => {
          <a
             href={resume}
             download
-            className="inline-flex text-gray1 text-center justify-center items-center w-full px-4 py-2 rounded shadow hover:shadow-md hover:shadow-primary shadow-primary  sm:w-auto "
+            className="inline-flex text-gray1 font-semibold text-center justify-center items-center w-full px-4 py-2 rounded shadow  hover:shadow-primary shadow-primary  sm:w-auto "
          >
             Resume
             <span className="ml-2 font-bold text-lg">

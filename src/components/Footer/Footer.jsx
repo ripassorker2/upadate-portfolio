@@ -19,10 +19,9 @@ const Footer = () => {
             <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
                <div className="lg:w-1/3">
                   <Link to="/" className="inline-flex items-center">
-                     <span className="text-xl font-serif font-bold tracking-wide text-gray-100 uppercase">
-                        <span className="text-[#0dccf2] py-1"> Ripas </span>{" "}
-                        Sorker{" "}
-                        <span className="text-[#0dccf2] py-1">Rifat </span>
+                     <span className=" text-2xl  font-bold tracking-wide text-gray1 ">
+                        <span className="text-[#0dccf2] py-1"> Love</span> With
+                        <span className="text-[#0dccf2] py-1"> Coding</span>
                      </span>
                   </Link>
                   <h3>MERN Stack Developer</h3>

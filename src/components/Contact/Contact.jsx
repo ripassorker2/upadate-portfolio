@@ -50,7 +50,7 @@ const Contact = () => {
                                  type="text"
                                  name="user_name"
                                  className="form-control block w-full px-3 py-2 text-base font-normal bg-[#1a1919] bg-clip-padding border border-solid border-gray-800 rounded  text-gray-200 focus:bg-[#1a1919] focus:outline-none"
-                                 placeholder="Name"
+                                 placeholder="Full Name"
                               />
                            </div>
                            <div className="form-group mb-6">
@@ -67,12 +67,12 @@ const Contact = () => {
                                  className="
                       form-control block w-full px-3 py-1.5 text-base font-normal bg-[#1a1919] bg-clip-padding border border-solid border-gray-800 rounded  text-gray-200 focus:bg-[#1a1919]  focus:outline-none"
                                  rows="3"
-                                 placeholder="Message"
+                                 placeholder="Message....."
                               ></textarea>
                            </div>
                            <button
                               type="submit"
-                              className="inline-flex text-gray1 text-center justify-center items-center w-full px-4 py-2 rounded shadow hover:shadow-md hover:shadow-primary shadow-primary  "
+                              className="inline-flex text-gray1 text-center justify-center items-center w-full px-4 py-2.5 font-semibold rounded shadow  hover:shadow-primary shadow-primary  "
                            >
                               Submit
                            </button>

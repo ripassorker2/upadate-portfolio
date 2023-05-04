@@ -5,6 +5,7 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Services from "../Services/Services";
 import Client from "../Client/Client";
+import Project from "../Project/Project";
 
 const Home = () => {
    return (
@@ -12,6 +13,7 @@ const Home = () => {
          <Banner />
          <Services />
          <Skils />
+         <Project />
          <About />
          <Client />
          <Contact />

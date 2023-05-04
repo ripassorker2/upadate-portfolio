@@ -5,8 +5,8 @@ import { TiWorld } from "react-icons/ti";
 
 const Services = () => {
    return (
-      <section className="pt-20  " id="service">
-         <div className="container">
+      <section className="pt-20 pb-20  bg-black" id="service">
+         <div className="container ">
             <div className="pb-10">
                <h4 className="title">My Services</h4>
                <h3 className="font-semibold  md:text-xl text-lg mb-2 text-center text-gray-400">

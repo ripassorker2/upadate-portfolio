@@ -13,7 +13,7 @@ const Client = () => {
             >
                {counterOn && (
                   <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
-                     <div className="bg-[#2a2c39] grid place-content-center p-6 rounded-md text-center">
+                     <div className="bg-[#2a2c39]  grid place-content-center p-6 rounded-md text-center">
                         <h4 className="text-gray1 md:text-3xl text-2xl  ">
                            Experience
                         </h4>
@@ -22,7 +22,7 @@ const Client = () => {
                            +years
                         </h3>
                      </div>
-                     <div className="bg-[#2a2c39] grid place-content-center p-6 rounded-md text-center">
+                     <div className="bg-[#2a2c39]  grid place-content-center p-6 rounded-md text-center">
                         <h4 className="text-gray1 md:text-3xl text-2xl  ">
                            Happy Clients
                         </h4>
@@ -31,7 +31,7 @@ const Client = () => {
                            +
                         </h3>
                      </div>
-                     <div className="bg-[#2a2c39] grid place-content-center p-6 rounded-md text-center">
+                     <div className="bg-[#2a2c39]  grid place-content-center p-6 rounded-md text-center">
                         <h4 className="text-gray1 md:text-3xl text-2xl  ">
                            Projects
                         </h4>

@@ -8,20 +8,20 @@ const About = () => {
          <div className="container">
             <div>
                <h4 className="title">About Me</h4>
-               <h3 className="font-semibold  md:text-xl text-lg mb-2 text-center text-gray-400">
+               <h3 className="font-semibold  md:text-xl text-lg mb-2 text-center text-gray1">
                   {"<-~-"} Some information about me! {"-~->"}
                </h3>
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 place-content-center mt-8 ">
-               <div data-aos="fade-left">
+               <div>
                   <img
                      src={rifat}
                      alt=""
-                     className="bg-contain rounded-xl md:w-[90%] w-full max-h-[400px] "
+                     className="bg-contain rounded-xl md:w-[90%] w-full max-h-[450px] "
                   />
                </div>
                <div className="flex items-center justify-center ">
-                  <div data-aos="fade-right" className=" md:p-2 rounded-sm ">
+                  <div className=" md:p-2 rounded-sm ">
                      <p className="mt-6 mb-5 md:text-lg text-gray1">
                         Hello! I am Md Ripas Sorker Rifat. I am twenty years
                         old. I am doing my Bachelor in Dhaka International

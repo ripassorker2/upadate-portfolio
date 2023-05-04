@@ -28,10 +28,10 @@ const Contact = () => {
    };
 
    return (
-      <section className="  md:pt-24 pt-16" id="contact">
+      <section className="  md:pt-28 pt-20" id="contact">
          <div className="container">
             <div>
-               <h4 className="title">Contact Me</h4>
+               <h4 className="title">Contact With Me</h4>
                <h3 className="font-semibold  md:text-xl text-lg mb-2 text-center text-gray-400">
                   {"<-~-"} If you have any queries? {"-~->"}
                </h3>
@@ -39,10 +39,7 @@ const Contact = () => {
             <div className=" text-gray-800  pt-6">
                <div className=" ">
                   <div className="grid md:grid-cols-2">
-                     <div
-                        data-aos="fade-right"
-                        className=" basis-auto w-full md:pr-3  mb-12 xl:mb-0"
-                     >
+                     <div className=" basis-auto w-full md:pr-3  mb-12 xl:mb-0">
                         <form
                            ref={form}
                            onSubmit={sendEmail}
@@ -81,7 +78,7 @@ const Contact = () => {
                            </button>
                         </form>
                      </div>
-                     <div data-aos="fade-left" className=" w-full md:pl-3">
+                     <div className=" w-full md:pl-3">
                         <div className="flex flex-wrap">
                            <div className="mb-12  basis-auto w-full md:w-6/12 ">
                               <div className="flex items-start">

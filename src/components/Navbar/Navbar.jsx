@@ -28,6 +28,14 @@ const Navbar = () => {
                </li>
                <li>
                   <a
+                     href="/#service"
+                     className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
+                  >
+                     Services
+                  </a>
+               </li>
+               <li>
+                  <a
                      href="/#skills"
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >

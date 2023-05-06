@@ -7,7 +7,7 @@ import Resume from "../Resume/Resume";
 const Navbar = () => {
    return (
       <div
-         className="z-[4000] py-7 w-full shadow-gray-500 bg-black text-gray1 sticky top-0 "
+         className="z-[4000] py-7 w-full shadow shadow-primary bg-black text-gray1 sticky top-0 right-0"
          id="home"
       >
          <div className="relative container  flex items-center justify-between ">
@@ -50,15 +50,6 @@ const Navbar = () => {
                      Projects
                   </Link>
                </li>
-
-               <li>
-                  <a
-                     href="/#contact"
-                     className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
-                  >
-                     Contact
-                  </a>
-               </li>
                <li>
                   <a
                      href="/#about"
@@ -67,6 +58,15 @@ const Navbar = () => {
                      About
                   </a>
                </li>
+               <li>
+                  <a
+                     href="/#contact"
+                     className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
+                  >
+                     Contact
+                  </a>
+               </li>
+
                <li>
                   <Resume />
                </li>

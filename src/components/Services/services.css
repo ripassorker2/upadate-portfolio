@@ -9,8 +9,7 @@
 
 .contain .box {
    position: relative;
-   /* height: 350px; */
-   width: 300px;
+   width: 290px;
    display: flex;
    justify-content: center;
    align-items: center;

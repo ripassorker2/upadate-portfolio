@@ -17,7 +17,7 @@ const ProjectTab = () => {
 
    useEffect(() => {
       setLoading(true);
-      fetch("http://localhost:5000/project/Full-stack")
+      fetch("https://portfoliyo-server.vercel.app/project/Full-stack")
          .then((res) => res.json())
          .then((data) => {
             setProjects(data);
@@ -27,7 +27,7 @@ const ProjectTab = () => {
 
    const handleType = (type) => {
       console.log(type);
-      fetch(`http://localhost:5000/project/${type}`)
+      fetch(`https://portfoliyo-server.vercel.app/project/${type}`)
          .then((res) => res.json())
          .then((data) => {
             setProjects(data);

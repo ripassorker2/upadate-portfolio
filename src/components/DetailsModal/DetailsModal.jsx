@@ -3,8 +3,6 @@ import { GiCancel } from "react-icons/gi";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 const DetailsModal = ({ showModal, setShowModal, project }) => {
-   console.log(project);
-
    return (
       <div>
          <>
@@ -120,7 +118,7 @@ const DetailsModal = ({ showModal, setShowModal, project }) => {
                                              {" "}
                                              <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
                                           </span>
-                                          <p className="md:text-lg text-base ml-2">
+                                          <p className="md:text-lg text-base ml-2 hover:text-primary duration-300">
                                              {dec}
                                           </p>
                                        </div>

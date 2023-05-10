@@ -11,7 +11,7 @@ const Project = () => {
       <section
          className={`${
             pathname !== "/projects"
-               ? "bg-black  md:mt-36 mt-24 mt py-16"
+               ? "bg-black  md:mt-36 mt-24 mt py-20"
                : " mt-20"
          } `}
       >

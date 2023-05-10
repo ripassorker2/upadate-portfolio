@@ -42,7 +42,7 @@ const Navbar = () => {
                   </Link>
                </li>
                {isAdmin && (
-                  <li>
+                  <li className="hidden md:block">
                      <Link
                         to={"/dashboard/welcome"}
                         className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "

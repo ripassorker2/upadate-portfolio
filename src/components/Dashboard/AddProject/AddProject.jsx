@@ -26,7 +26,7 @@ const AddProject = () => {
    const onSubmit = (data) => {
       data.projectType = category;
 
-      fetch(`http://localhost:5000/project`, {
+      fetch(`https://portfoliyo-server.vercel.app/project`, {
          method: "POST",
          headers: {
             "content-type": "application/json",

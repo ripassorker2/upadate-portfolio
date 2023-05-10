@@ -14,7 +14,7 @@ const Services = () => {
                </h3>
             </div>
 
-            <div className="contain grid lg:grid-cols-3 md:grid-cols-2 md:gap-24 gap-12">
+            <div className="contain grid lg:grid-cols-3 md:grid-cols-2 md:gap-32 gap-12">
                <div className="box">
                   <div className="content ">
                      <AiFillEdit className="icon" />

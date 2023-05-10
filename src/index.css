@@ -41,6 +41,14 @@ body {
    transition: 0.5s;
 }
 
+.cardAdd {
+   background: #252734;
+   padding: 25px;
+   border-radius: 15px;
+   box-shadow: 10px 10px 19px #2a2c39, -10px -10px 19px #2a2c39;
+   transition: 0.5s;
+}
+
 .card:hover figure img {
    transform: scale(1.2);
    width: 100%;
@@ -53,6 +61,15 @@ body {
    padding: 13px 30px;
    color: #c7d6e8;
    margin-top: 24px;
+   border-radius: 10px;
+   box-shadow: 11px 11px 12px #242425, -11px -11px 12px #2a2c39;
+}
+/* button */
+.see-all1 {
+   background: #252734;
+   padding: 13px 30px;
+   color: #c7d6e8;
+
    border-radius: 10px;
    box-shadow: 11px 11px 12px #242425, -11px -11px 12px #2a2c39;
 }

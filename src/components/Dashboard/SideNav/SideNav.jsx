@@ -74,7 +74,7 @@ const SideNav = () => {
                ))}
             </div>
          </div>
-         <div className="overflow-y-auto" style={{ flex: 10 }}>
+         <div className="overflow-y-auto h-[86vh]" style={{ flex: 10 }}>
             <Outlet />
          </div>
       </section>

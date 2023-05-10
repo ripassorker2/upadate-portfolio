@@ -34,28 +34,28 @@ const DetailsModal = ({ showModal, setShowModal, project }) => {
                               </div>
                               {/*body*/}
                               <div className="md:px-5 pb-8 mt-3">
-                                 <div className="grid md:grid-cols-2 md:gap-10 gap-5 ">
+                                 <div className="grid md:grid-cols-2 md:gap-8 gap-5 ">
                                     <img
                                        data-aos="zoom-in-up"
-                                       className="md:h-72 h-60  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
+                                       className="md:h-[250px] h-[230px]  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
                                        src={project?.picture1}
                                        alt=""
                                     />
                                     <img
                                        data-aos="zoom-in-up"
-                                       className="md:h-72 h-60  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
+                                       className="md:h-[250px] h-[230px]  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
                                        src={project?.picture2}
                                        alt=""
                                     />
                                     <img
                                        data-aos="slide-right"
-                                       className="md:h-72 h-60  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
+                                       className="md:h-[250px] h-[230px]  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
                                        src={project?.picture3}
                                        alt=""
                                     />
                                     <img
                                        data-aos="slide-left"
-                                       className="md:h-72 h-60  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
+                                       className="md:h-[250px] h-[230px]  w-full rounded-xl duration-1000 hover:shadow-[#0dccf2] hover:shadow-md"
                                        src={project?.picture4}
                                        alt=""
                                     />
@@ -67,22 +67,26 @@ const DetailsModal = ({ showModal, setShowModal, project }) => {
                                     </h3>
                                     <div className="md:flex justify-end items-end">
                                        <a
-                                          href={project?.live}
+                                          href={project?.liveLink}
                                           target="_blank"
                                           className="inline-flex text-gray1 font-semibold text-center justify-center items-center  px-4 py-1.5 rounded shadow  hover:shadow-primary shadow-primary mr-5 mb-3 md:mb-0"
                                        >
                                           Live Site
                                        </a>
-                                       <a
-                                          href={project?.client}
-                                          target="_blank"
-                                          className="inline-flex text-gray1 font-semibold text-center justify-center items-center  px-4 py-1.5 rounded shadow  hover:shadow-primary shadow-primary mr-5"
-                                       >
-                                          Client Site
-                                       </a>
-                                       {project?.server && (
+
+                                       {project?.clientLink && (
                                           <a
-                                             href={project?.server}
+                                             href={project?.clientLink}
+                                             target="_blank"
+                                             className="inline-flex text-gray1 font-semibold text-center justify-center items-center  px-4 py-1.5 rounded shadow  hover:shadow-primary shadow-primary mr-5"
+                                          >
+                                             Client Site
+                                          </a>
+                                       )}
+
+                                       {project?.serverLink && (
+                                          <a
+                                             href={project?.serverLink}
                                              target="_blank"
                                              className="inline-flex text-gray1 font-semibold text-center justify-center items-center  px-4 py-1.5 rounded shadow  hover:shadow-primary shadow-primary mr-5"
                                           >
@@ -97,115 +101,30 @@ const DetailsModal = ({ showModal, setShowModal, project }) => {
                                        Used Techknology
                                     </h3>
                                     <div className="flex flex-wrap">
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          JavaScript
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
-                                       <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 md:mb-0">
-                                          React js
-                                       </button>
+                                       {project?.techknology?.map((tec) => (
+                                          <button className="bg-[#4a4d60] text-gray1 px-3 md:px-4 py-1.5 rounded-xl mr-3 mb-2 ">
+                                             {tec}
+                                          </button>
+                                       ))}
                                     </div>
                                  </div>
 
                                  <div className="text-gray1  mt-6">
                                     <h3 className="md:text-xl text-lg text-gray2 font-semibold mb-2">
-                                       Describtion
+                                       Descriptions
                                     </h3>
-                                    <div className="inline-flex  ">
-                                       <span>
-                                          {" "}
-                                          <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
-                                       </span>
-                                       <p className="md:text-lg text-base ml-2">
-                                          Lorem ipsum dolor sit, amet
-                                          consectetur adipisicing elit.
-                                          Exercitationem consectetur, voluptatem
-                                          iure a delectus fugit dolores neque
-                                          qui molestiae.
-                                       </p>
-                                    </div>
-                                    <div className="inline-flex  ">
-                                       <span>
-                                          {" "}
-                                          <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
-                                       </span>
-                                       <p className="md:text-lg text-base ml-2">
-                                          Lorem ipsum dolor sit, amet
-                                          consectetur adipisicing elit.
-                                          Exercitationem consectetur, voluptatem
-                                          iure a delectus fugit dolores neque
-                                          qui molestiae.
-                                       </p>
-                                    </div>
-                                    <div className="inline-flex  ">
-                                       <span>
-                                          {" "}
-                                          <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
-                                       </span>
-                                       <p className="md:text-lg text-base ml-2">
-                                          Lorem ipsum dolor sit, amet
-                                          consectetur adipisicing elit.
-                                          Exercitationem consectetur, voluptatem
-                                          iure a delectus fugit dolores neque
-                                          qui molestiae.
-                                       </p>
-                                    </div>
-                                    <div className="inline-flex  ">
-                                       <span>
-                                          {" "}
-                                          <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
-                                       </span>
-                                       <p className="md:text-lg text-base ml-2">
-                                          Lorem ipsum dolor sit, amet
-                                          consectetur adipisicing elit.
-                                          Exercitationem consectetur, voluptatem
-                                          iure a delectus fugit dolores neque
-                                          qui molestiae.
-                                       </p>
-                                    </div>
-                                    <div className="inline-flex  ">
-                                       <span>
-                                          {" "}
-                                          <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
-                                       </span>
-                                       <p className="md:text-lg text-base ml-2">
-                                          Lorem ipsum dolor sit, amet
-                                          consectetur adipisicing elit.
-                                          Exercitationem consectetur, voluptatem
-                                          iure a delectus fugit dolores neque
-                                          qui molestiae.
-                                       </p>
-                                    </div>
-                                    <div className="inline-flex  ">
-                                       <span>
-                                          {" "}
-                                          <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
-                                       </span>
-                                       <p className="md:text-lg text-base ml-2">
-                                          Lorem ipsum dolor sit, amet
-                                          consectetur adipisicing elit.
-                                          Exercitationem consectetur, voluptatem
-                                          iure a delectus fugit dolores neque
-                                          qui molestiae.
-                                       </p>
-                                    </div>
+
+                                    {project?.description.map((dec) => (
+                                       <div className="inline-flex  ">
+                                          <span>
+                                             {" "}
+                                             <BsArrowRightCircle className="hover:text-primary duration-300 hover:mr-2 md:text-lg mt-1" />
+                                          </span>
+                                          <p className="md:text-lg text-base ml-2">
+                                             {dec}
+                                          </p>
+                                       </div>
+                                    ))}
                                  </div>
                               </div>
                            </div>

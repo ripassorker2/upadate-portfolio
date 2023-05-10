@@ -85,3 +85,9 @@
    color: #c7d6e8;
    transition: 0.5s ease-in-out;
 }
+
+@media only screen and (max-width: 668px) {
+   .contain .box .content {
+      padding: 25px 20px;
+   }
+}

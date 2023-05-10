@@ -36,8 +36,8 @@ const Contact = () => {
                   {"<-~-"} If you have any queries? {"-~->"}
                </h3>
             </div>
-            <div className=" text-gray-800  pt-6">
-               <div className=" ">
+            <div className="pt-6">
+               <div className="">
                   <div className="grid md:grid-cols-2">
                      <div className=" basis-auto w-full md:pr-3  mb-12 xl:mb-0">
                         <form

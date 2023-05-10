@@ -156,7 +156,7 @@ const Skils = () => {
                      data-tooltip-id="redux"
                      data-tooltip-content="Redux"
                   />
-                  <h4 className="text">Frontend</h4>
+                  <h4 className="text md:-ml-7 -ml-4 title">Frontend</h4>
                </div>
             </div>
             <div className="min-h-[400px] flex  items-center justify-center">
@@ -282,7 +282,7 @@ const Skils = () => {
                      data-tooltip-id="docker"
                      data-tooltip-content="Docker"
                   />
-                  <h4 className="text">Backend</h4>
+                  <h4 className="text md:-ml-7 -ml-4 title">Backend</h4>
                </div>
             </div>
          </div>

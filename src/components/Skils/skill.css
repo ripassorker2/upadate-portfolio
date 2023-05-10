@@ -1,83 +1,83 @@
 .html {
-   animation: orbit1 50s infinite forwards;
+   animation: orbit1 90s infinite forwards;
 }
 
 .css {
-   animation: orbit2 50s infinite forwards;
+   animation: orbit2 90s infinite forwards;
 }
 
 .javascript {
-   animation: orbit3 50s infinite forwards;
+   animation: orbit3 90s infinite forwards;
 }
 
 .Bootstrap {
-   animation: orbit4 50s infinite forwards;
+   animation: orbit4 90s infinite forwards;
 }
 .Tailwind {
-   animation: orbit5 50s infinite forwards;
+   animation: orbit5 90s infinite forwards;
 }
 
 .ReactJS {
-   animation: orbit6 50s infinite forwards;
+   animation: orbit6 90s infinite forwards;
 }
 
 .firebase {
-   animation: orbit7 50s infinite forwards;
+   animation: orbit7 90s infinite forwards;
 }
 
 .mui {
-   animation: orbit8 50s infinite forwards;
+   animation: orbit8 90s infinite forwards;
 }
 
 .nextjs {
-   animation: orbit9 50s infinite forwards;
+   animation: orbit9 90s infinite forwards;
 }
 .redux {
-   animation: orbit10 50s infinite forwards;
+   animation: orbit10 90s infinite forwards;
 }
 
 /* backend */
 
 .node {
-   animation: orbit11 50s infinite reverse;
+   animation: orbit11 90s infinite forwards;
 }
 
 .exprees {
-   animation: orbit12 50s infinite reverse;
+   animation: orbit12 90s infinite forwards;
 }
 
 .mongodb {
-   animation: orbit13 50s infinite reverse;
+   animation: orbit13 90s infinite forwards;
 }
 
 .graphQl {
-   animation: orbit14 50s infinite reverse;
+   animation: orbit14 90s infinite forwards;
 }
 .typescript {
-   animation: orbit15 50s infinite reverse;
+   animation: orbit15 90s infinite forwards;
 }
 
 .jwt {
-   animation: orbit16 50s infinite reverse;
+   animation: orbit16 90s infinite forwards;
 }
 
 .postgre {
-   animation: orbit17 50s infinite reverse;
+   animation: orbit17 90s infinite forwards;
 }
 
 .SQL {
-   animation: orbit18 50s infinite reverse;
+   animation: orbit18 90s infinite forwards;
 }
 
 .AWS {
-   animation: orbit19 50s infinite reverse;
+   animation: orbit19 90s infinite forwards;
 }
 .docker {
-   animation: orbit20 50s infinite reverse;
+   animation: orbit20 90s infinite forwards;
 }
 
 .text {
-   animation: orbit111 50s infinite reverse;
+   animation: orbit111 90s infinite forwards;
    color: #edf2f7;
    font-size: 28px;
 }
@@ -249,7 +249,6 @@
 @media only screen and (max-width: 992px) {
    .text {
       font-size: 24px;
-      /* margin-left: 68px; */
    }
    @keyframes orbit1 {
       from {

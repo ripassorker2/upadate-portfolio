@@ -1,14 +1,11 @@
 import React from "react";
-import img from "../../assets/rifat.jpg";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { BiWorld } from "react-icons/bi";
 import { Link, useLocation } from "react-router-dom";
 import ProjectTab from "../ProjectTab/ProjectTab";
 
 const Project = () => {
    const path = useLocation();
    const pathname = path.pathname;
-   console.log(pathname);
 
    return (
       <section

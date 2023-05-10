@@ -6,7 +6,7 @@ import { TiWorld } from "react-icons/ti";
 const Services = () => {
    return (
       <section className="pt-20 pb-20  bg-black" id="service">
-         <div className="container ">
+         <div className="container">
             <div className="pb-10">
                <h4 className="title">My Services</h4>
                <h3 className="font-semibold  md:text-xl text-lg mb-2 text-center text-gray-400">
@@ -14,16 +14,17 @@ const Services = () => {
                </h3>
             </div>
 
-            <div className="contain">
+            <div className="contain grid lg:grid-cols-3 md:grid-cols-2 md:gap-24 gap-12">
                <div className="box">
-                  <div className="content">
+                  <div className="content ">
                      <AiFillEdit className="icon" />
                      <div className="text">
                         <h4 className="text-2xl mt-3 font-semibold">
                            Frontend
                         </h4>
                         <p className="text-base">
-                           I will design or redesign your website from Scratch.
+                           I will provide you a complete website design or
+                           redesign your website from Scratch.
                         </p>
                         <a href="https://wa.me/+8801744876681" target="_blank">
                            <button className="inline-flex text-gray1 text-center justify-center items-center  px-6 text-lg py-2 rounded shadow  hover:shadow-primary shadow-primary   ">
@@ -42,7 +43,7 @@ const Services = () => {
                         </h4>
                         <p className="text-base">
                            I will provide you a complete website with frontend
-                           and backend.
+                           and backend or the way you want.
                         </p>
                         <a href="https://wa.me/+8801744876681" target="_blank">
                            <button className="inline-flex text-gray1 text-center justify-center items-center  px-6 text-lg py-2 rounded shadow  hover:shadow-primary shadow-primary   ">
@@ -58,7 +59,8 @@ const Services = () => {
                      <div className="text">
                         <h4 className="text-2xl mt-3 font-semibold">Backend</h4>
                         <p className="text-base">
-                           I will develop your backend from Scratch using MERN.
+                           I will develop your backend from Scratch using MERN
+                           (MongoDB, Express.js, ReactJS, Node.JS.).
                         </p>
                         <a href="https://wa.me/+8801744876681" target="_blank">
                            <button className="inline-flex text-gray1 text-center justify-center items-center  px-6 text-lg py-2 rounded shadow  hover:shadow-primary shadow-primary   ">

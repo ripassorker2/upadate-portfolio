@@ -6,10 +6,7 @@ import Resume from "../Resume/Resume";
 
 const Navbar = () => {
    return (
-      <div
-         className="z-[4000] py-7 w-full shadow shadow-primary bg-black text-gray1 sticky top-0 right-0"
-         id="home"
-      >
+      <div className="z-[4000] py-6 w-full shadow-md shadow-gray-500  bg-black text-gray1 sticky top-0 right-0">
          <div className="relative container  flex items-center justify-between ">
             <Link to="/" className="inline-flex items-center">
                <span className="ml-2 text-2xl font-serif font-bold tracking-wide text-gray1 uppercase">
@@ -28,14 +25,6 @@ const Navbar = () => {
                </li>
                <li>
                   <a
-                     href="/#service"
-                     className="font-medium tracking-wide text-gray-00 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
-                  >
-                     Services
-                  </a>
-               </li>
-               <li>
-                  <a
                      href="/#skills"
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
@@ -48,6 +37,14 @@ const Navbar = () => {
                      className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
                   >
                      Projects
+                  </Link>
+               </li>
+               <li>
+                  <Link
+                     to={"/dashboard/welcome"}
+                     className="font-medium tracking-wide text-gray1 transition-colors duration-200 hover:text-deep-purple-accent-400 hover:text-[#0dccf2] "
+                  >
+                     Dashboard
                   </Link>
                </li>
                <li>
